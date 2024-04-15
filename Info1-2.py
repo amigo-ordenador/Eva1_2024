@@ -1,0 +1,11 @@
+firstName = input("Cual es tu nombre? ")
+lastName = input("Cual es tu apellido? ")
+career = input("Que carrera estudias? ")
+course = input("Que asignatura cursas? ")
+campus = input("En que sede de INACAP estudias? ")
+semester = input("Cual semestre estas cursando? ")
+year = input("Que año es? ")
+location = input("En que ciudad te encuentras? ")
+age = input("Cuantos años tienes? ")
+
+print("Hola " + firstName, lastName + "! Te encuentras en "+ location +" tienes "+ age +" años. " + "Estudias "+ career +" en la sede de INACAP "+ campus +"."+ " Es el año "+ year +", te encuentras en tu " + semester + " y actualmente estás cursando la asignatura de "+ course)
